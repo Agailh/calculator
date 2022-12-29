@@ -28,7 +28,7 @@ const App = () => {
             <Button
               key={i}
               className={btn === "=" ? "equals" : ""}
-              value={btn}
+              Value={btn}
               onClick={() => {
                 console.log(`${btn} clicked!`);
               }}
